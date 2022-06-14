@@ -1,0 +1,119 @@
+*{
+	margin: 2px;
+	padding: 2px;
+	box-sizing: border-box;
+	font-family: 'Source Sans pro', sans-serif;
+	text-decoration: none;
+	color: white;
+}
+body{
+	background: url(./back.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+form{
+	background: rgba(27,31,34,0.80);
+	width: 650px;
+	margin: 50px auto;
+	max-width: 90%;
+	border-radius: 7px;
+	padding: 55px 30px;
+}
+form .title h2{
+	letter-spacing: 7px;
+	border-bottom: 1px solid powderblue;
+	display: inline-block;
+	padding-bottom: 10px;
+	margin-bottom: 35px;
+}
+form .body h3{
+	letter-spacing: 3px;
+	display: block;
+	font-family:'Brush Script MT', cursive ;
+    font-weight: 300;
+	padding-bottom: 20px;
+}
+form .half{
+	display: flex;
+	justify-content: space-between;
+}
+form .half .item{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+	width: 50%;
+}
+
+form label{
+	display: block;
+	font-size: 15px;
+	letter-spacing: 3.7px;
+	margin-bottom: 17px;
+}
+form .half .item input{
+	border-radius: 5px;
+	border: 2px solid whitesmoke;
+	outline: 0;
+	padding: 19px;
+	width: 100%;
+	height: 55px;
+	background: transparent;
+	font-size: 25px;
+}
+form .full{
+	margin-bottom: 30px;
+}
+form .full textarea{
+	background: transparent;
+	border-radius: 5px;
+	border: 2px solid whitesmoke;
+	outline: 0;
+	padding: 15px 20px;
+	width: 100%;
+	height: 250px;
+	font-size: 25px;
+}
+form .action{
+	margin-bottom: 35px;
+}
+.submit-btn {
+	border-radius: 5px;
+	border: 2px solid whitesmoke;
+	color: lightblue;
+	cursor: pointer;
+	font-size: 30px;
+	font-weight: 700;
+	height: 55px;
+	letter-spacing: 5px;
+	outline: 0;
+	background: transparent;
+}
+form .icons a{
+	border: 2px solid whitesmoke;
+	border-radius: 50%;
+	line-height: 36px;
+	text-align: center;
+	font-weight: 700;
+	width: 40px;
+	margin-right: 12px;
+}
+form .half .item input:focus, form .full textarea:focus, form .action input:hover, form .icons a:hover{
+  background: rgba(255,255,255,0.075);
+}
+@media (max-width: 480px){
+  form .half{
+    flex-direction: column;
+  }
+  form .half .item{
+    width: 100%;
+  }
+  form .action{
+    display: flex;
+    flex-direction: column;
+  }
+  form .action input{
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  }
