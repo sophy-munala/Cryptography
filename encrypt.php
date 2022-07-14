@@ -21,14 +21,7 @@
 			<h2>Stay Vigilant and Send Your Message Securely</h2>
 		</div>
 		<div class="half">
-        <div class="item">
-				<label for="email"><h3>Sender Email:</h3> </label>
-				<input type="text" name="" id="email">
-			</div>
-			<div class="item">
-				<label for="num"><h3>Sender Number:</h3></label>
-				<input type="text" name="" id="num">
-			</div>
+        
 			<div class="item">
 				<label for="email"><h3>Receipeint Email:</h3></label>
 				<input type="text" name="" id="email">
